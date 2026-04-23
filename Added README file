@@ -1,0 +1,78 @@
+**Netflix Data Analysis Project**
+**Overview**
+This project focuses on analyzing Netflix Movies and TV Shows using Python and Power BI.
+The main objective is to explore the dataset, clean the data, identify trends, and create visualizations for better understanding of Netflix content.
+________________________________________
+**Technologies Used**
+•	Python
+•	Pandas
+•	NumPy
+•	Matplotlib
+•	Seaborn
+•	Jupyter Notebook
+•	Power BI
+________________________________________
+**Dataset Information**
+The dataset contains details about Netflix content such as:
+•	Title
+•	Type (Movie/TV Show)
+•	Director
+•	Country
+•	Release Year
+•	Rating
+•	Genre
+•	Duration
+________________________________________
+**Project Workflow**
+
+**1. Data Cleaning**
+•	Removed unnecessary columns
+•	Handled missing values
+•	Checked duplicate records
+
+**2. Exploratory Data Analysis (EDA)**
+•	Analyzed Movies vs TV Shows
+•	Checked content growth over years
+•	Identified top countries
+•	Explored ratings and genres
+
+**3. Data Visualization**
+Created visualizations using:
+•	Count Plots
+•	Bar Charts
+•	Histograms
+•	Heatmaps
+
+**4. Power BI Dashboard**
+Built an interactive dashboard to visualize:
+•	Content distribution
+•	Ratings analysis
+•	Country-wise content
+•	Genre analysis
+•	Year-wise trends
+________________________________________
+**Key Insights**
+
+•	Netflix contains more Movies than TV Shows
+•	Content growth increased rapidly after 2015
+•	USA has the highest number of Netflix titles
+•	Drama and International genres are the most popular
+•	TV-MA and TV-14 are the most common ratings
+________________________________________
+**Files Included**
+
+•	netflix_analysis_eda.ipynb
+•	netflix_titles.csv
+•	Power BI Dashboard File
+•	Dashboard Images
+•	README.md
+________________________________________
+**Conclusion**
+This project helped in understanding Netflix content trends and improved skills in:
+•	Data Cleaning
+•	Exploratory Data Analysis
+•	Data Visualization
+•	Dashboard Development
+________________________________________
+**Author**
+Santhosh
