@@ -1,78 +1,51 @@
-**Netflix Data Analysis Project**
-**Overview**
-This project focuses on analyzing Netflix Movies and TV Shows using Python and Power BI.
-The main objective is to explore the dataset, clean the data, identify trends, and create visualizations for better understanding of Netflix content.
-________________________________________
-**Technologies Used**
-•	Python
-•	Pandas
-•	NumPy
-•	Matplotlib
-•	Seaborn
-•	Jupyter Notebook
-•	Power BI
-________________________________________
-**Dataset Information**
-The dataset contains details about Netflix content such as:
-•	Title
-•	Type (Movie/TV Show)
-•	Director
-•	Country
-•	Release Year
-•	Rating
-•	Genre
-•	Duration
-________________________________________
-**Project Workflow**
+# 🎬 Netflix Content Analytics Dashboard
 
-**1. Data Cleaning**
-•	Removed unnecessary columns
-•	Handled missing values
-•	Checked duplicate records
+## 📌 Project Overview
+This project analyzes the Netflix Content Library using Power BI. The dataset was cleaned and transformed using Python (Pandas) and Power Query before creating an interactive dashboard. The dashboard provides business insights into Netflix content based on countries, directors, genres, ratings, content type, and release years.
 
-**2. Exploratory Data Analysis (EDA)**
-•	Analyzed Movies vs TV Shows
-•	Checked content growth over years
-•	Identified top countries
-•	Explored ratings and genres
+## 🛠️ Tools & Technologies
+- Python
+- Pandas
+- Power BI
+- Power Query
+- DAX
 
-**3. Data Visualization**
-Created visualizations using:
-•	Count Plots
-•	Bar Charts
-•	Histograms
-•	Heatmaps
+## 📊 Dashboard Features
+- KPI Cards
+- Top 5 Countries by Content
+- Content by Country and Type
+- Content Released Over Time
+- Content by Rating
+- Top 10 Content Categories (Genres)
+- Top Directors by Content
+- Interactive Slicers
 
-**4. Power BI Dashboard**
-Built an interactive dashboard to visualize:
-•	Content distribution
-•	Ratings analysis
-•	Country-wise content
-•	Genre analysis
-•	Year-wise trends
-________________________________________
-**Key Insights**
+## 📈 Key Performance Indicators (KPIs)
+- Total Content
+- Total Movies
+- Total TV Shows
+- Total Directors
+- Total Countries
+- Total Rating Categories
 
-•	Netflix contains more Movies than TV Shows
-•	Content growth increased rapidly after 2015
-•	USA has the highest number of Netflix titles
-•	Drama and International genres are the most popular
-•	TV-MA and TV-14 are the most common ratings
-________________________________________
-**Files Included**
+## 💡 Business Insights
+- The United States contributes the highest number of Netflix titles.
+- Movies make up a larger portion of the content library than TV Shows.
+- TV-MA is the most common content rating.
+- Netflix's content library has grown significantly after 2015.
+- Drama and Comedy are among the most popular content categories.
 
-•	netflix_analysis_eda.ipynb
-•	netflix_titles.csv
-•	Power BI Dashboard File
-•	Dashboard Images
-•	README.md
-________________________________________
-**Conclusion**
-This project helped in understanding Netflix content trends and improved skills in:
-•	Data Cleaning
-•	Exploratory Data Analysis
-•	Data Visualization
-•	Dashboard Development
-________________________________________
+## 🖼️ Dashboard Preview
+
+![Netflix Dashboard](dashboard.png)
+
+## 📂 Project Files
+- 📄 `netflix_titles.csv` - Original Dataset
+- 📄 `netflix_cleaned.csv` - Cleaned Dataset
+- 🐍 `cleaning.py` - Data Cleaning Script
+- 📊 `netflix.pbix` - Power BI Dashboard
+- 🖼️ `dashboard.png` - Dashboard Screenshot
+
+
 **Author**
-Santhosh
+Santhosh Kanukati
